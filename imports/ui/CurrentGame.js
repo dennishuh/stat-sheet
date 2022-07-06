@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
 
@@ -7,7 +6,6 @@ import { Teams } from '../api/teams';
 import { Games } from '../api/games';
 
 import TeamsContainer from './TeamsContainer';
-import NewGame from './NewGame';
 import GameTime from './GameTime';
 
 export default class Team extends React.Component {

@@ -6,11 +6,8 @@ import TitleBar from './TitleBar';
 import NewGame from './NewGame';
 
 import Home from '../ui/Home';
-import Signup from '../ui/Signup';
-import Login from '../ui/Login';
 import NotFound from '../ui/NotFound';
 import CurrentGame from '../ui/CurrentGame';
-import GamesContainer from '../ui/GamesContainer';
 
 const App = () => (
 	<Router>
